@@ -1,0 +1,18 @@
+import datetime
+
+nome = str(input("digite nome:"))
+while len(nome) <= 3:
+    nome = str(input("digite_nome:"))
+nasc = int(input("digite_ano_de_nascimento:"))
+
+while nasc < 1922 or nasc > 2021:
+    print("Erro!")
+    nasc = int(input("digite_ano_de_nascimento:"))
+else:
+    print("Validando_os_dados....", nome)
+
+hoje = datetime.date.today().year
+
+idade = hoje - nasc
+
+print("Resultado:\n" + nome + " está_com", idade)
