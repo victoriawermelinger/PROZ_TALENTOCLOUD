@@ -1,4 +1,24 @@
 # INDECE (i) = 0
-while(i<3):
+i = 0
+while(i < 3):
  print("olá mundo")
  i = i + 1 
+
+for i in range(3):
+ print("nova frase")
+
+#exercicio
+# REGAR A PLANTA 
+for i in range(6):
+  planta_atual = str(i)
+  print("Rega a planta " + planta_atual)
+
+# COM For 
+for i in range(6):
+ if (i % 2 == 0):
+    print("Regar a planta: ", i)
+
+# COM If
+for i in range(6):
+    if(i>3):
+     print("Regar a planta: " , i)
