@@ -15,7 +15,8 @@ roda = inteiro
 assento = inteiro
 peso = floa
 
- Inicio 
+Inicio 
+
 escreva(“O seu veículo possui quantas rodas?”)
  leia(roda)
 escreva(“Quantos assentos o seu veículo possui?”)
@@ -34,6 +35,7 @@ senao se (roda>=4) e (peso>6000) entao
 escreva(“Carteira de Habilitação Tipo E”)
 senao
 escreva(“Dados informados incorretos, por favor reinicie o questionário.”)
+fimdese
 
 #PYTHON
 
