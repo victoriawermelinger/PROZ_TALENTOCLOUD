@@ -10,10 +10,12 @@
 #D: Veículos com quatro rodas ou mais e que acomodam mais de oito pessoas; E: Veículos com quatro rodas ou mais e com #mais de 6000 kg.
 
 # ALGORITIMO
-Variaveis 
+# Variaveis 
 roda = inteiro
 assento = inteiro
 peso = floa
+
+ Inicio 
 escreva(“O seu veículo possui quantas rodas?”)
  leia(roda)
 escreva(“Quantos assentos o seu veículo possui?”)
